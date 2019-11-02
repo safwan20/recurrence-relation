@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='dist/css/style.min.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='images.png') }}">
+
+
+    <title>RECURRENCE RELATIONS</title>
+</head>
+<body>
+
+
+
+
+<div>
+	
+	<img src="{{ url_for('static', filename='images.png') }}" style="top: 120px;position: relative;">
+
+</div>
+
+
+
+<form action="/show" method="POST">
+
+  <div class="row">
+    <div class="col" style="left: 15px;position: relative;top: 200px">
+      <input type="text" class="form-control" placeholder="ENTER THE RECURRENCE RELATION" name="names" style="width: 500px;height: 50px;">
+    </div>
+  </div>
+
+
+</form>
+
+
+
+
+
+</body>
+</html>
